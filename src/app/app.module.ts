@@ -19,7 +19,7 @@ import { ProductListComponent } from './product-list/product-list.component';
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: ProductListComponent },
+      { path: 'list', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent },
     ])
   ],
